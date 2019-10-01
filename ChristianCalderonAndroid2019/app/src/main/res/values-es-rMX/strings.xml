@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChristianCalderonAndroid2019</string>
+    <string name="your_score">Tu puntuaje: %s</string>
+    <string name="your_time">Tiempo restante: %s</string>
+    <string name="tag_button">Dale click</string>
+    <string name="final_score">Tu puntuaje final es: %s</string>
+    <string name="celsius_deg">Celsius: %s</string>
+    <string name="title_activity_dialog_image">DialogImage</string>
+    <string name="showing_code_in_fragment">Showing code in fragment</string>
+    <string name="scan_qr_code">SCAN QR CODE</string>
+    <string name="textName">Name</string>
+    <string name="empty">---</string>
+    <string name="textLastName">Apellido</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="scan_a_code">Scan a QR Code</string>
+    <string name="result_not_found">Result Not Found</string>
+    <string name="show_scanner_from_fragment">Show Scanner From Fragment</string>
+</resources>

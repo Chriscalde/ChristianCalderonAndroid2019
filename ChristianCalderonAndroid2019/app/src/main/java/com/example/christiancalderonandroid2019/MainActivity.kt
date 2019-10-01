@@ -3,7 +3,6 @@ package com.example.christiancalderonandroid2019
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,TimeFighter::class.java)
             startActivity(intent)
         }
-        btnConvert.setOnClickListener {
+        btnConverter.setOnClickListener {
             val intent = Intent(this,FahToCel::class.java)
             startActivity(intent)
         }
@@ -36,6 +35,15 @@ class MainActivity : AppCompatActivity() {
         }
         btnDialogTwo.setOnClickListener{
             val intent = Intent(this,DialogManager::class.java)
+            startActivity(intent)
+        }
+        btnCicle.setOnClickListener {
+            val intent = Intent(this,Cicle::class.java)
+            startActivity(intent)
+        }
+
+        btnIMC.setOnClickListener {
+            val intent = Intent(this,IMC::class.java)
             startActivity(intent)
         }
     }

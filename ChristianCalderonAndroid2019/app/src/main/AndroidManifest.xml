@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.christiancalderonandroid2019">
+        package="com.example.christiancalderonandroid2019">
 
     <application
             android:allowBackup="true"
@@ -9,35 +9,31 @@
             android:roundIcon="@mipmap/ic_launcher"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".IMC"></activity>
+        <activity android:name=".Cicle" />
         <activity
                 android:name=".SplashActivity"
                 android:theme="@style/AppTheme.SplashScreen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DialogManager">
-        </activity>
+        <activity android:name=".DialogManager" />
         <activity
                 android:name=".DialogManage"
                 android:label="@string/title_activity_dialog_image"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity android:name=".Dialog">
-        </activity>
-        <activity android:name=".FahToCel">
-        </activity>
-        <activity android:name=".TimeFighter">
-        </activity>
-        <activity android:name=".HelloWorld">
-        </activity>
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Dialog" />
+        <activity android:name=".FahToCel" />
+        <activity android:name=".TimeFighter" />
+        <activity android:name=".HelloWorld" />
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
